@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	Slice "go-novalagung/slice"
+	Map "go-novalagung/map"
 )
 
 func main() {
 	fmt.Println("Hello World")
 
-	Slice.SliceReference()
-
+	// Slice.SliceReference()
+	Map.Map()
 }
