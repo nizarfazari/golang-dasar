@@ -76,4 +76,13 @@ func MapCombineSlice() {
 	for _, chicken := range chickens {
 		fmt.Println(chicken["gender"], chicken["name"])
 	}
+
+	// key value berbeda juga bisa
+	var data = []map[string]string{
+		{"name": "chicken blue", "gender": "male", "color": "brown"},
+		{"address": "mangga street", "id": "k001"},
+		{"community": "chicken lovers"},
+	}
+
+	fmt.Println(data)
 }
