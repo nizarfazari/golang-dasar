@@ -9,5 +9,5 @@ func main() {
 	fmt.Println("Hello World")
 
 	// Slice.SliceReference()
-	Map.Map()
+	Map.MapCombineSlice()
 }
